@@ -17,8 +17,8 @@ app.get('/',(req, res) => {
 
 //mongodb connection
 mongoose
-    .connect('mongodb+srv://bimintatel:benraq@cluster0.ket1vej.mongodb.net/?retryWrites=true&w=majority')
-    // .connect(process.env.MONGODB_URI)
+    // .connect('mongodb+srv://bimintatel:benraq@cluster0.ket1vej.mongodb.net/?retryWrites=true&w=majority')
+    .connect(process.env.MONGODB_URI)
     .then(()=> console.log("Connected to MongoDB Atlas"))
     .catch((error) => console.error(error));
 
