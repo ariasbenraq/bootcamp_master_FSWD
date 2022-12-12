@@ -3,10 +3,10 @@ POST http://localhost:9000/api/bands  HTTP/1.1
 Content-Type: application/json
 
 {
-     "band" : "Jethro Tull",
-    "album"  : "Stand Up",
-    "year": "1969",
-    "genre": "Blues Rock"
+    "band": "Susana Baca",
+    "album": "Lamento Negro",
+    "year": "2001",
+    "genre": "folclokr afroperuano"
 }
 
 ###

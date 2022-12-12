@@ -4,7 +4,7 @@ require("dotenv").config();
 const bandRoutes = require("./routes/bands");
 
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 3000;
 
 // middleware
 app.use(express.json());
@@ -22,4 +22,4 @@ mongoose
     .then(()=> console.log("Connected to MongoDB Atlas"))
     .catch((error) => console.error(error));
 
-app.listen(9000,() => console.log('Server listening on port', port));
+app.listen(3000,() => console.log('Server listening on port', port));
