@@ -1,4 +1,4 @@
-.env
 node_modules/
 docker-compose-dev.yml
 .DS_Store
+Dockerfile
